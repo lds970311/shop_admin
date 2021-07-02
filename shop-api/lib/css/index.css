@@ -1,0 +1,44 @@
+/*在这里写所有的自定义的样式*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#readme {
+    padding: 3px;
+    background: #eee;
+    border-radius: 3px;
+}
+
+#readme .markdown-body,
+#readme .plain {
+    background-color: #fff;
+    border: 1px solid #CACACA;
+    padding: 30px;
+}
+
+
+/* 修改注释的样式 */
+
+.hljs-comment {
+    font-style: normal;
+}
+
+.markdown-body pre code,
+.markdown-body pre>code {
+    color: #dcdcdc;
+}
+
+
+/* 修改行内代码样式 */
+
+.markdown-body code,
+.markdown-body samp {
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
